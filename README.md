@@ -1,6 +1,6 @@
 # 🥤Juice Shop Writeups
 
-> > 주요 문제 풀이
+> 주요 문제 풀이
 
 ---
 
