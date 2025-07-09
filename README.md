@@ -1,12 +1,14 @@
-# juice-shop-writeups
+# 🥤Juice Shop Writeups
 
-## Reflected XSS (⭐⭐)
+주요 문제 풀이
+
+### Reflected XSS (⭐⭐)
 
 URL 파라미터 관련
 
 ---
 
-## Nested Easter Egg (⭐⭐⭐⭐)
+### Nested Easter Egg (⭐⭐⭐⭐)
 
 1. null byte injection 시도해서 eastere.gg 파일 다운로드
 
