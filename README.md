@@ -15,6 +15,19 @@ URL 파라미터 부분이 reflected xss 공격 지점이라고 판단해서 해
 
 ---
 
+### Deprecated Interface (⭐⭐)
+
+![image](https://github.com/user-attachments/assets/cc1e4870-b128-48f2-ba04-266d0866474a)
+-> XML 파일 업로드를 시도하면 사라진 B2B 인터페이스의 흔적을 찾을 수 있음 (complain 탭에서 업로드 가능)
+
+---
+
+### XXE Data Access (⭐⭐⭐)
+
+XXE(Xml eXternal Entity): 
+
+---
+
 ### Poison Null Byte (⭐⭐⭐⭐)
 
 ![image](https://github.com/user-attachments/assets/2f1a717e-db98-404e-9506-e747fccc76ce)
