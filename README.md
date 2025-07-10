@@ -18,13 +18,18 @@ URL 파라미터 부분이 reflected xss 공격 지점이라고 판단해서 해
 ### Deprecated Interface (⭐⭐)
 
 ![image](https://github.com/user-attachments/assets/cc1e4870-b128-48f2-ba04-266d0866474a)
+
 -> XML 파일 업로드를 시도하면 사라진 B2B 인터페이스의 흔적을 찾을 수 있음 (complain 탭에서 업로드 가능)
 
 ---
 
 ### XXE Data Access (⭐⭐⭐)
 
-XXE(Xml eXternal Entity): 
+XXE(Xml eXternal Entity) Injection: 외부 객체를 활용해 시스템 파일이나 데이터를 엿볼 수 있는 공격
+
+![image](https://github.com/user-attachments/assets/fd6a1e47-1bbc-471b-89d0-726d382abee3)
+
+-> XXE Injection을 수행하는 XML 파일을 제작해 서버에 전송 (윈도우 환경이기 때문에 /system.ini 에 시스템 파일 존재)
 
 ---
 
