@@ -17,7 +17,10 @@ URL 파라미터 부분이 reflected xss 공격 지점이라고 판단해서 해
 
 ### Poison Null Byte (⭐⭐⭐⭐)
 
+![image](https://github.com/user-attachments/assets/2f1a717e-db98-404e-9506-e747fccc76ce)
 
+
+![image](https://github.com/user-attachments/assets/3da0742c-f7ba-4737-bf34-0cd9d586c305)
 
 ---
 
