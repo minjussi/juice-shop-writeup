@@ -41,6 +41,19 @@ Captcha 우회
 
 ---
 
+### CSRF (⭐⭐⭐)
+
+
+---
+
+### API-only XSS (⭐⭐⭐)
+
+지속적인 XSS 공격 -> Stored XSS의 한 형태
+
+
+
+---
+
 ### Poison Null Byte (⭐⭐⭐⭐)
 
 ![image](https://github.com/user-attachments/assets/2f1a717e-db98-404e-9506-e747fccc76ce)
