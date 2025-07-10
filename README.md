@@ -48,9 +48,22 @@ Captcha 우회
 
 ### API-only XSS (⭐⭐⭐)
 
-지속적인 XSS 공격 -> Stored XSS의 한 형태
+지속적인 XSS 공격 -> Stored XSS의 한 형태이기 때문에 제품 리뷰 작성하는 칸을 활용해서 XSS 코드 삽입
+
+<img width="1031" height="915" alt="image" src="https://github.com/user-attachments/assets/56696593-0916-47f4-a010-bee9cef47102" />
 
 
+---
+
+### Christmas Special (⭐⭐⭐⭐)
+
+<img width="2151" height="1574" alt="image" src="https://github.com/user-attachments/assets/c672880c-13cf-4958-b264-2ef33f5b96ec" />
+
+<img width="2148" height="1243" alt="image" src="https://github.com/user-attachments/assets/8aa5a67b-8bd2-442a-8bd9-8b18c914082c" />
+
+
+1. burp suite에서 repeater 탭으로 blind sql injection 시도하고, 결과적으로 christmas special offer의 product id가 10임을 알아냄
+2. basket에 product id 10을 추가한 다음 checkout
 
 ---
 
