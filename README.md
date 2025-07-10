@@ -15,6 +15,12 @@ URL 파라미터 부분이 reflected xss 공격 지점이라고 판단해서 해
 
 ---
 
+### Poison Null Byte (⭐⭐⭐⭐)
+
+
+
+---
+
 ### Nested Easter Egg (⭐⭐⭐⭐)
 
 1. null byte injection 시도해서 eastere.gg 파일 다운로드
