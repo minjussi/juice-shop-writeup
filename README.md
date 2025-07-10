@@ -33,7 +33,7 @@ XXE(Xml eXternal Entity) Injection: 외부 객체를 활용해 시스템 파일�
 
 ---
 
-### Bypass Captcha (⭐⭐⭐)
+### CAPTCHA Bypass (⭐⭐⭐)
 
 <img width="960" height="1135" alt="image" src="https://github.com/user-attachments/assets/184a6a19-d63d-4269-9557-f7bcfa13a681" />
 
