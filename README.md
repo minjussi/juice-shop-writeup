@@ -48,9 +48,10 @@ Captcha 우회
 
 ### API-only XSS (⭐⭐⭐)
 
-지속적인 XSS 공격 -> Stored XSS의 한 형태이기 때문에 제품 리뷰 작성하는 칸을 활용해서 XSS 코드 삽입
+지속적인 XSS 공격 -> Stored XSS의 한 형태이기 때문에 제품 리뷰 작성하는 칸을 활용
 
 <img width="1031" height="915" alt="image" src="https://github.com/user-attachments/assets/56696593-0916-47f4-a010-bee9cef47102" />
+
 
 
 ---
