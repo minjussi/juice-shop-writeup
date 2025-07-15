@@ -82,3 +82,12 @@ Captcha 우회
 1. null byte injection 시도해서 eastere.gg 파일 다운로드
 
 2. 얻은 파일에 있는 진짜 easter egg 주소를 base 64 인코딩 -> rot 13 인코딩
+
+---
+
+### Multiple Likes (⭐⭐⭐⭐⭐⭐)
+
+- Race Condition: 여러 프로세스나 스레드가 공유 자원에 동시에 접근하여 예상치 못한 결과를 초래하는 상황
+
+
+---
