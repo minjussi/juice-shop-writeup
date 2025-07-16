@@ -53,6 +53,12 @@ Captcha 우회
 <img width="1031" height="915" alt="image" src="https://github.com/user-attachments/assets/56696593-0916-47f4-a010-bee9cef47102" />
 
 
+---
+
+### Client-side XSS Protection (⭐⭐⭐)
+
+javascript에서 
+
 
 ---
 
