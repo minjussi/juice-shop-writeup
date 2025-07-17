@@ -65,6 +65,26 @@ Captcha 우회
 
 ---
 
+### HTTP-Header XSS (⭐⭐⭐⭐)
+
+<img width="2149" height="1233" alt="image" src="https://github.com/user-attachments/assets/185248ad-9139-459b-be47-5a42197ede0b" />
+
+HTTP 형식에 맞춰 get 요청을 보낼 때 xss 시도
+
+- True-Client-IP 헤더 활용: 
+
+---
+
+### Server-side XSS Protection (⭐⭐⭐⭐)
+
+server 측에서 발생하는 취약점으로, 
+
+<img width="952" height="1069" alt="image" src="https://github.com/user-attachments/assets/af08d465-a03b-4875-98a1-c8b45cbb3eee" />
+
+- 입력 payload: <<iframe src="javascript:evil"/>iframe src="javascript:alert(`xss`)">
+
+---
+
 ### Christmas Special (⭐⭐⭐⭐)
 
 <img width="2151" height="1574" alt="image" src="https://github.com/user-attachments/assets/c672880c-13cf-4958-b264-2ef33f5b96ec" />
