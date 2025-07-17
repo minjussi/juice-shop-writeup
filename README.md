@@ -57,8 +57,11 @@ Captcha 우회
 
 ### Client-side XSS Protection (⭐⭐⭐)
 
-javascript에서 
+브라우저 내 취약점으로 server가 아니라 client side에서만 발생하는 취약점이다. (input 값을 client side에서만 확인하는 경우가 해당할 확률 높음)
 
+<img width="1075" height="878" alt="image" src="https://github.com/user-attachments/assets/b5ceb3f3-41f7-4b46-9ae1-8f5315210421" />
+
+회원가입 시에는 그 값을 server에서 확인하지 않기 때문에 xss 가능
 
 ---
 
