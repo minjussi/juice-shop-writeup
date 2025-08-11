@@ -109,11 +109,4 @@ server 측에서 발생하는 취약점으로,
 
 - express-jwt : 
 
----
 
-### Multiple Likes (⭐⭐⭐⭐⭐⭐)
-
-- Race Condition: 여러 프로세스나 스레드가 공유 자원에 동시에 접근하여 예상치 못한 결과를 초래하는 상황
-
-
----
