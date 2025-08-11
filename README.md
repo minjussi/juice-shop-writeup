@@ -33,19 +33,6 @@ XXE(Xml eXternal Entity) Injection: 외부 객체를 활용해 시스템 파일�
 
 ---
 
-### CAPTCHA Bypass (⭐⭐⭐)
-
-<img width="960" height="1135" alt="image" src="https://github.com/user-attachments/assets/184a6a19-d63d-4269-9557-f7bcfa13a681" />
-
-Captcha 우회
-
----
-
-### CSRF (⭐⭐⭐)
-
-
----
-
 ### API-only XSS (⭐⭐⭐)
 
 지속적인 XSS 공격 -> Stored XSS의 한 형태이기 때문에 제품 리뷰 작성하는 칸을 활용
