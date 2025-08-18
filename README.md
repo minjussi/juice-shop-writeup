@@ -1,4 +1,4 @@
-# 🥤Juice Shop Writeups
+# 🥤Juice Shop Write-up
 
 ✏️ 문제 난이도 별 정리 (1~6)
 
