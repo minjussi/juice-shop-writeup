@@ -1,4 +1,4 @@
-## DOM XSS
+# DOM XSS
 
 ### Cross-site scripting (XSS)
 
