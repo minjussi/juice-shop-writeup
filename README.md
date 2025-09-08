@@ -11,6 +11,7 @@
 ### A02:2021-Cryptographic Failures
 
 ### A03:2021-Injection
+XSS
 
 ### A04:2021-Insecure Design
 
