@@ -36,3 +36,8 @@ XSS는 취약한 웹사이트를 조작해 사용자에게 악의적인 Javascri
   <img src="https://github.com/user-attachments/assets/6170b56b-21e0-4957-96ee-f7aca884fa3b" width="45%"/>
 
 </p>
+
+
+- 코드를 더 자세히 살펴보면 파라미터로 입력된 값이 sanitizer를 우회하는 것이 가능한 코드가 있는 것을 확인할 수 있다.
+
+- 이를 오른쪽처럼 입력값이 sanitizer를 거쳐 필터링을 거친 다음에 입력되도록 수정하면 보안 조치를 할 수 있다. 
