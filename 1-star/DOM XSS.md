@@ -2,12 +2,20 @@
 
 ### Cross-site scripting (XSS)
 
-XSS는 취약한 웹사이트를 조작해 사용자에게 악의적인 Javascript 실행 결과를 제공하는 웹 취약점의 일종이다. 악의적인 코드가 피해자의 브라우저에서 실행되면, 공격자는 
+XSS는 취약한 웹사이트를 조작해 사용자에게 악의적인 Javascript 실행 결과를 제공하는 웹 취약점의 일종이다. 악의적인 코드가 피해자의 브라우저에서 실행되면, 공격자는 피해자의 권한으로 브라우저를 임의로 조작할 수 있게 된다. 
+
+### XSS PoC
+
+- 통상적으로 취약점을 확인하기 위해 짧은 javascript 코드인 alert() 함수를 많이 사용했다.
+
+- 크롬 92 버전부터는 cross-origin iframe 안에서 alert()의 호출이 막혔다. (iframe은 다른 사이트 콘텐츠를 삽입(cross-origin)할 때 자주 사용하는 HTML 태그인데, 보안 강화 차원에서 막혔다.(same-origin Policy 때문))
+
+- 이런 경우에는 print() 함수를 대신해서 사용해 브라우저에서 인쇄 대화창을 활용해 실행 결과를 확인할 수 있다. 
 
 
 ### DOM-based XSS 개념 (출처 : PortSwigger)
 
-- DOM-based XSS는 Javascript에서 공격자가 제어할 수 있는 source에 있는 데이터를 가져와 eval()이나 innerHTML 같은 동적 코드를 실행하는 함수에 전달해 공격자가 임의로 넣은 코드를 실행할 수 있게 한다. (특히 타인의 계정을 훔칠 때 유용하게 사용된다.)
+- DOM-based XSS는 Javascript에서 공격자가 제어할 수 있는 source에 있는 데이터를 가져와 eval()이나 innerHTML 같은 동적 코드를 실행하는 함수에 전달해 공격자가 임의로 넣은 코드를 클라이언트 단에서 실행할 수 있게 한다. (특히 타인의 계정을 훔칠 때 유용하게 사용된다.)
   
 - DOM-based XSS를 실행하려면 해당 source에 내가 넣어서 공격하고자 하는 data를 삽입해 Javascript에서 실행되도록 만들어야 한다. 
   
