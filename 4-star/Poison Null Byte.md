@@ -11,3 +11,5 @@
 <img src="https://github.com/user-attachments/assets/3eaf6c9d-f223-4e10-b570-c6a07679d9a7" width="45%"/>
 
 - ftp/package.json.bak%25%30%30.pdf(url encoding)로 null byte를 추가하여 확장자 제한을 우회할 수 있다. 
+
+### mitigation
