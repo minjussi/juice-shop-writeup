@@ -5,8 +5,10 @@
 
 
 ### 문제 풀이
-<img src="https://github.com/user-attachments/assets/4896588e-745d-4757-b712-ff89cda84ce9" width="45%" style="margin-right:10px;"/>
-<img src="https://github.com/user-attachments/assets/28ff23da-695d-49f9-b957-0dc9f15abe13" width="45%"/>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4896588e-745d-4757-b712-ff89cda84ce9" width="45%" style="margin-right:10px;"/>
+  <img src="https://github.com/user-attachments/assets/28ff23da-695d-49f9-b957-0dc9f15abe13" width="45%"/>
+</p>
 
 - 기존에는 ftp 디렉토리로 이동할 수 있어 모든 사용자가 기밀문서에 접근할 수 있었다.
 
