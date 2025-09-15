@@ -1,7 +1,7 @@
 # Confidential Document
 
 ### Confidential Document
-
+> 
 
 ### 문제 풀이
 <img src="https://github.com/user-attachments/assets/4896588e-745d-4757-b712-ff89cda84ce9" width="45%" style="margin-right:10px;"/>
