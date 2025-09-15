@@ -2,7 +2,13 @@
 
 ### Null Byte Injection
 
+입력값의 끝에 널 바이트(%00 혹은 \0)를 삽입하여 입력값 필터링이나 검증 로직을 우회할 수 있게 되는 취약점이다. 
 
+### Null byte
+
+- 널 바이트(null byte)는 많은 프로그래밍 언어에서 문자열의 끝을 의미한다.
+
+- 따라서 이를 활용한 필터링 우회가 가능해진다. 예를 들어, image.jpg 라는 파일이 있을 때 image.jpg%00.exe와 같이 입력하면 실행 가능한 파일인 .exe는 무시되고 jpg로 인식하게 된다.
 
 
 ### 문제 풀이
@@ -12,7 +18,9 @@
   <img src="https://github.com/user-attachments/assets/3eaf6c9d-f223-4e10-b570-c6a07679d9a7" width="45%"/>
 </p>
 
-- ftp/package.json.bak%25%30%30.pdf(url encoding)로 null byte를 추가하여 확장자 제한을 우회할 수 있다. 
+- package.json.bak 파일은 확장자가 .md 거나 .pdf인 경우에만 접근이 가능하다.
+
+- 따라서 ftp/package.json.bak%25%30%30.pdf(url encoding)로 null byte를 추가하여 확장자 제한을 우회할 수 있다. 
 
 ### Mitigation Strategy
 
