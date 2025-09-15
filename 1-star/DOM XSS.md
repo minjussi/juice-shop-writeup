@@ -39,10 +39,12 @@ XSS는 취약한 웹사이트를 조작해 사용자에게 악의적인 Javascri
 
 
 
+### mitigation
+
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/28598f0c-1462-44e2-979d-6e8ad349875e" width="45%" style="margin-right:10px;"/>
   <img src="https://github.com/user-attachments/assets/6170b56b-21e0-4957-96ee-f7aca884fa3b" width="45%"/>
-
 </p>
 
 
