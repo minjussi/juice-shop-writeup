@@ -39,7 +39,7 @@ XSS는 취약한 웹사이트를 조작해 사용자에게 악의적인 Javascri
 
 
 
-### mitigation
+### Mitigation Strategy
 
 
 <p align="center">
