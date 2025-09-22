@@ -43,6 +43,16 @@
 
 - Content-Type 수정으로 XXE 공격 시도
 
+  - 기본적으로 POST method의 content-type은 application/x-www-form-urlencoded인데 이를 수정하여 text/xml로 바꾸어 xml 문서를 파싱하게 할 수 있다. 
+
+```
+POST /action HTTP/1.0
+Content-Type: text/xml
+Content-Length: 52
+
+<?xml version="1.0" encoding="UTF-8"?><foo>bar</foo>
+```
+
 
 ### 문제 풀이
 
