@@ -43,6 +43,8 @@
 1. XML 파일이 업로드 되는 곳을 찾는다.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9910895a-f9cf-4c34-88ea-cbe6746c56f8" width="45%" style="margin-right:10px;"/>
+  <img src="https://github.com/user-attachments/assets/658f5412-afdb-4437-abe6-85603f86638c" width="45%"/>
+
 </p>
 
 
