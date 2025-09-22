@@ -40,6 +40,11 @@
 
 ### 문제 풀이
 
+1. XML 파일이 업로드 되는 곳을 찾는다.
+<p>
+  <img width="1478" height="280" alt="image" src="https://github.com/user-attachments/assets/9910895a-f9cf-4c34-88ea-cbe6746c56f8" />
+</p>
+
 
 ### Mitigation Strategy
 
