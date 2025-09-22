@@ -16,13 +16,16 @@
 
 ### XXE 취약점 발생 & XXE 공격 예시 (출처: PortSwigger)
 
-- 파일을 찾을 때 XXE 활용
+> 브라우저(client)와 서버(server) 간에 데이터를 주고 받을 때 XML 형식을 사용하는 경우가 있는데, 이때 주로 표준 라이브러리나 API를 사용해 서버 단에 있는 XML 데이터를 처리한다. XML은 잠재적인 위험 요소들이 존재하는데, 대부분의 처리 도구들이 이 요소들을 다루고 있기 때문에 취약점이 발생한다. (cf) DTD(Document Type Definition) 는 XML 문서의 구조, 요소, 속성 등의 규칙을 정의하는 문법이다. )
 
+- 파일을 찾을 때 XXE 활용
+  - DOCTYPE 정의: 파일 경로를 포함하는 외부 엔터티 정의
+ 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]> <!--/etc/passwd 파일을 찾는 구문 삽입-->
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>  <!--/etc/passwd 파일을 찾는 구문 삽입-->
 <stockCheck>
-  <productId>&xxe;</productId> <!- &xxe 변수에 /etc/passwd 파일 내용이 들어감-->
+  <productId>&xxe;</productId>                                <!--&xxe 변수에 /etc/passwd 파일 내용이 들어감-->
 </stockCheck>
 ```
 
