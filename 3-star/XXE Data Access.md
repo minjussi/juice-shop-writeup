@@ -70,3 +70,10 @@ Content-Length: 52
 
 ### Mitigation Strategy
 
+- 대부분의 XXE Injection은 XML을 파싱하는 라이브러리가 필요하지 않은 잠재적으로 위험한 XML 기능을 지원하기 때문이다. 따라서 잠재적으로 위험한 XML 기능을 지원하지 않으면 문제가 가장 쉽게 해결된다. 
+
+- XInclude, DTD, 외부 엔티티 지원을 중지하기
+
+> XInclude를 활용해 다양한 공격이 가능하다. 예를 들면, <xi:inclue> 태그를 활용해 임의의 파일을 시스템 서버 파일에 업로드하거나 SSRF 공격을 시도할 수 있다. 또한, recursive XInclude payload를 이용해 DoS 공격(e.g. XML bomb : XML 파싱 도구가 과도한 메모리와 CPU를 사용해 시스템 마비)을 시도할 수도 있다. 
+
+- 덜 복잡한 데이터 형식을 사용하고 (ex. JSON), 민감한 데이터 나열 피하기 
