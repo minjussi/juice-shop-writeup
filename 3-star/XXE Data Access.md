@@ -6,9 +6,9 @@
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <book category="fantasy">
-<title>Harry Potter and the Sorcerer's Stone</title>
-<author>J.K. Rowling</author>
-<year>1997</year>
+  <title>Harry Potter and the Sorcerer's Stone</title>
+  <author>J.K. Rowling</author>
+  <year>1997</year>
 </book>
 ```
 
