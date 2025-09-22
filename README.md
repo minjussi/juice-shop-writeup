@@ -11,7 +11,7 @@
 ### A02:2021-Cryptographic Failures
 
 ### A03:2021-Injection
-XSS
+XSS, XXE
 
 ### A04:2021-Insecure Design
 
@@ -26,3 +26,4 @@ XSS
 ### A09:2021-Security Logging and Monitoring Failures
 
 ### A10:2021-Server-Side Request Forgery
+SSRF
