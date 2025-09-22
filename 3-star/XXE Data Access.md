@@ -63,6 +63,10 @@ Content-Length: 52
 
 </p>
 
+2. Complaint 탭에서 XML 파일을 업로드할 수 있으므로 업로드한 XML 파일에 악의적인 구문을 추가하여 XXE 공격을 통해 시스템 파일 읽기 시도 -> 성공
+   
+<img width="990" height="233" alt="image" src="https://github.com/user-attachments/assets/74132e8b-d3c2-4c1f-9306-15e8b3339c9d" />
+
 
 ### Mitigation Strategy
 
